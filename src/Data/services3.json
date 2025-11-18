@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "/assets/images/serction-section-one.png",
+    "title": "Cart-to-Table",
+    "desc": "Recipes → Groceries → Home (with or without a chef)",
+    "image": "/assets/images/home-3/ser-thumb.png",
+    "titurl": "/service/carttotable",
+    "btntext": "Get Started"
+  },
+  {
+    "icon": "/assets/images/serction-section-two.png",
+    "title": "Laundry Pickup & Delivery",
+    "desc": "Wash • Fold • Deliver",
+    "image": "/assets/images/home-3/ser-thumb2.png",
+    "titurl": "/service/laundery-pickup",
+    "btntext": "Learn More"
+  },
+  {
+    "icon": "/assets/images/serction-section-three.png",
+    "title": "Home Organizing",
+    "desc": "Declutter • Reset • Maintain",
+    "image": "/assets/images/home-3/ser-thumb3.png",
+    "titurl": "/service/home-organizing",
+    "btntext": "Learn More"
+  }
+]
