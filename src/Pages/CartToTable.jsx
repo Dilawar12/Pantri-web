@@ -31,7 +31,7 @@ const CartToTable = () => {
   const contentTwo = {
     title: 'Meal Prep Assistance',
     description: "Support with ingredient preparation, chopping, seasoning, and setup for efficient meal prep. Perfect for dinner parties, family gatherings, or events, our chefs provide flexible scheduling and same-day availability based on your needs.",
-    btn_url: "/recipe",
+    btn_url: "/pricing",
     btn_name: "Get Started",
     leftImage: sectionTwo,
     rightImage: null,

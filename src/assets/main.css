@@ -2276,6 +2276,25 @@ h1.section-main-title {
   margin: 0;
 }
 
+h3.section-title-sub {
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 10px 0px 0px;
+}
+
+.project-bs{
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+h3.section-title-sub span{
+  color: #7fc23a;
+}
+
 h1.section-main-title span {
   display: inline-block;
   color: #7fc23a;
@@ -5619,9 +5638,21 @@ ul.list-style-one li a:hover {
   text-align: center;
   background: #fff;
   border-radius: 10px 0 10px 10px;
-  padding: 44px 30px 40px;
-  margin: 0 22px 30px;
+  padding: 20px 20px 20px;
+  margin: 0 22px 20px;
   position: relative;
+}
+
+.project-area.style-three .project-single-box.process-lst::before {
+    content: '- or -';
+    position: absolute;
+    right: -60px;
+    top: 45%;
+    font-size: 23px;
+    line-height: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Fira Sans';
 }
 
 .project-area.style-three .project-single-box .project-icon img {
@@ -5646,8 +5677,8 @@ ul.list-style-one li a:hover {
   background: url(/assets/images/home-two/project-shape2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  left: -22px;
-  bottom: -130px;
+  left: -15px;
+  bottom: -140px;
   height: 100%;
   width: 130%;
 }
@@ -5670,8 +5701,8 @@ ul.list-style-one li a:hover {
   background: url(/assets/images/home-two/project-shape4.png);
   background-repeat: no-repeat;
   background-size: contain;
-  left: -17px;
-  bottom: -135px;
+  left: -15px;
+  bottom: -145px;
   height: 100%;
   width: 115%;
 }
@@ -6640,19 +6671,26 @@ ul.list-style-one li a:hover {
 }
 
 .process-thumb img {
-  width: 70%;
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
 }
 
 .process-thumb:before {
   position: absolute;
   content: "";
-  width: 240px;
-  height: 240px;
-  left: 36px;
-  top: -13px;
+  width: 224px;
+  height: 225px;
+  left: 46px;
+  top: -8px;
   border: 2px dashed #7fc23a;
   border-radius: 50%;
   animation: rotateme 20s linear infinite;
+}
+
+.working-process-box.process-second .process-thumb::before {
+    width: 220px;
+    height: 225px;
 }
 
 .process-number span {
@@ -8547,7 +8585,7 @@ html.minimenu .dashboard-main-page {
   padding: 125px 0 65px 0;
   margin: 0 0 0 auto;
   transition: margin 0.5s ease, padding 0.5s ease;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;

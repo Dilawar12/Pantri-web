@@ -104,11 +104,11 @@ const FaqPage = () => {
     <div className="faq-page">
       <Faq />
 
-      <AppTabs
+      {/* <AppTabs
         data={sectionOne}
         title="Chef Services (Houston Only)"
         content="All powered by AI PantriOS."
-      />
+      /> */}
 
       <AppTabs
         data={sectionTwo}

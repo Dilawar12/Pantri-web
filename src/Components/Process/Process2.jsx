@@ -1,7 +1,11 @@
 import SectionTitle from "../Common/SectionTitle";
 import ProcessCard2 from "./ProcessCard2";
+import { useModal } from "../Modal/ModalContext.jsx";
 
 const Process2 = () => {
+
+    const { openModal } = useModal();
+
     return (
         <div className="working-proces-area">
             <div className="container">
@@ -9,9 +13,10 @@ const Process2 = () => {
                     <div className="col-lg-12">
                         <div className="section-title text-center">
                             <SectionTitle
-                                SubTitle="work process"
+                                SubTitle="Join Us"
                                 Title="How PantriApp Works"
                             ></SectionTitle>
+                            <h3 className="section-title-sub">Deposit Chores. <span>Withdraw Freedom.</span></h3>
                         </div>
                     </div>
                 </div>
@@ -27,7 +32,7 @@ const Process2 = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="working-process-box after-transprent">
+                        <div className="working-process-box after-transprent process-second">
                             <ProcessCard2
                                 Image="/assets/images/home-3/process-2.png"
                                 Number="02"
@@ -44,6 +49,17 @@ const Process2 = () => {
                                 Title="PantriAPP for Your Everyday Freedom"
                                 Content="PantriApp connects trusted providers with AI-powered scheduling and personalization - all in one app."
                             ></ProcessCard2>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div className="solutek-btn mt-10 d-flex justify-content-center">
+                            <a href="" onClick={(e) => {e.preventDefault(); openModal();}} >
+                                Become an Early Customer
+                                <div className="solutek-hover-btn hover-bx"></div>
+                                <div className="solutek-hover-btn hover-bx2"></div>
+                                <div className="solutek-hover-btn hover-bx3"></div>
+                                <div className="solutek-hover-btn hover-bx4"></div>
+                            </a>
                         </div>
                     </div>
                 </div>

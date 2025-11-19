@@ -20,7 +20,9 @@ const Home3 = () => {
                 BtnUrl="/about"
                 BtnText="Explore PantriOS"
             ></About1>
-            <Process2></Process2>
+            <Process2
+                BtnUrl="/about"
+            ></Process2>
             <Faq2></Faq2>
         </div>
     );
