@@ -42,8 +42,9 @@ const ProviderSignupForm = ({ closeModal, onBack }) => {
                 >
                     <option value="">Select</option>
                     <option value="personal-chef">Personal Chef</option>
-                    <option value="laundery-pickup">Laundry Pickup</option>
+                    <option value="laundery-pickup">Laundry Pickup & Delivery</option>
                     <option value="home-organizing">Home Organizing</option>
+                    
                 </select>
                 {errors.service && (
                     <small className="text-danger">{errors.service.message}</small>

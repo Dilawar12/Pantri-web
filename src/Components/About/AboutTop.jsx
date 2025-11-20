@@ -9,6 +9,7 @@ const AboutTop = ({AboutTopSec}) => {
                         <div className="services-details-content">
                             {AboutTopSec?.title && <h4 className="services-details-title">{AboutTopSec?.title}</h4>}
                             {AboutTopSec.description && <p className="services-details-desc">{AboutTopSec?.description}</p>}
+                            {AboutTopSec.descriptionTwo && <p className='services-details-desc'>{AboutTopSec?.descriptionTwo}</p>}
                         </div>
                     </div>
                 </div>

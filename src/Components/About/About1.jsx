@@ -23,10 +23,10 @@ const About1 = ({ MainImg, ImgTitle, SubTitle, Title, Content, listTitle, Bottom
                             <ul>
                                 <li><b>Cart-to-Table™:</b> Recipes → groceries → home (with or without a chef)</li>
                                 <li><b>Live tracking:</b> real-time driver status and ETA updates</li>
-                                <li><b>Secure checkout:</b> stored preferences, instant reorders</li>
+                                <li><b>Secure checkout:</b> stored preferences and instant reorders</li>
                             </ul>
                         </div>
-                        <div className="solutek-btn mt-30">
+                        {/* <div className="solutek-btn mt-30">
                             <Link to={BtnUrl}>
                                 {BtnText}
                                 <div className="solutek-hover-btn hover-bx"></div>
@@ -34,7 +34,7 @@ const About1 = ({ MainImg, ImgTitle, SubTitle, Title, Content, listTitle, Bottom
                                 <div className="solutek-hover-btn hover-bx3"></div>
                                 <div className="solutek-hover-btn hover-bx4"></div>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

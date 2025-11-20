@@ -17,8 +17,8 @@ const Home3 = () => {
                 Content="Intelligent automation meets real-world convenience. From grocery delivery to laundry tracking, PantriOS™ connects your household to everything that saves time."
                 listTitle="Cloud Based Solution"
                 BottomText="Monotonectally repurpose maintainable infrastruct whereas pantri in fermentum quis tempo sapien maximus design."
-                BtnUrl="/about"
-                BtnText="Explore PantriOS"
+                // BtnUrl="/about"
+                // BtnText="Explore PantriOS"
             ></About1>
             <Process2
                 BtnUrl="/about"

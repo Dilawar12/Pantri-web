@@ -36,6 +36,7 @@ const Services3 = () => {
                                             <Link to={item.titurl}>{item.title}</Link>
                                         </h4>
                                         <p className="service-desc">{item.desc}</p>
+                                        <img src={item.image} alt="thumb" />
                                         <div className="solutek-btn2">
                                             <button to={item.titurl} onClick={() => {
                                                 naigate(item.titurl)
@@ -45,9 +46,8 @@ const Services3 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="service-thumb">
-                                    <img src={item.image} alt="thumb" />
-                                </div>
+                                    {/* <div className="service-thumb">
+                                    </div> */}
                             </div>
                         </div>
                     ))}

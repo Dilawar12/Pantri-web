@@ -14,9 +14,9 @@ const Process2 = () => {
                         <div className="section-title text-center">
                             <SectionTitle
                                 SubTitle="Join Us"
-                                Title="How PantriApp Works"
+                                Title="How It Works"
                             ></SectionTitle>
-                            <h3 className="section-title-sub">Deposit Chores. <span>Withdraw Freedom.</span></h3>
+                            {/* <h3 className="section-title-sub">Deposit Chores. <span>Withdraw Freedom.</span></h3> */}
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const Process2 = () => {
                                 Image="/assets/images/home-3/process-2.png"
                                 Number="02"
                                 Title="Create a Better Quality of Life"
-                                Content="Choose what matters most - we’ll handle the rest. From chefs, laundry to organizing, PantriApp automates your household with care."
+                                Content="You choose what matters most - we’ll take care of the rest. From chefs to laundry to organizing, we automate your household with care."
                             ></ProcessCard2>
                         </div>
                     </div>
@@ -46,15 +46,15 @@ const Process2 = () => {
                             <ProcessCard2
                                 Image="/assets/images/home-3/process-3.png"
                                 Number="03"
-                                Title="PantriAPP for Your Everyday Freedom"
-                                Content="PantriApp connects trusted providers with AI-powered scheduling and personalization - all in one app."
+                                Title="Your Everyday Freedom"
+                                Content="We connects trusted providers with AI-powered scheduling and personalization - all in one app."
                             ></ProcessCard2>
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="solutek-btn mt-10 d-flex justify-content-center">
                             <a href="" onClick={(e) => {e.preventDefault(); openModal();}} >
-                                Become an Early Customer
+                                Become an Early Customer to Sign Up
                                 <div className="solutek-hover-btn hover-bx"></div>
                                 <div className="solutek-hover-btn hover-bx2"></div>
                                 <div className="solutek-hover-btn hover-bx3"></div>

@@ -2241,7 +2241,7 @@ p.feature-text {
 
 h5.section-sub-title {
   font-size: 16px;
-  color: #7fc23a;
+  color: #001848;
   font-weight: 600;
   font-family: "Poppins";
   border-radius: 20px;
@@ -2261,7 +2261,7 @@ h5.section-sub-title::before {
   content: "";
   width: 30px;
   height: 7px;
-  background: #7fc23a;
+  background: #001848;
   border-radius: 30px;
   left: -8%;
   top: 14px;
@@ -2303,7 +2303,11 @@ h1.section-main-title span {
 p.section-title-descr {
   width: 84%;
   margin: 0;
-  padding: 19px 0 25px;
+  padding: 19px 0 15px;
+}
+
+.about-text ul{
+  padding-left: 30px;
 }
 
 p.section-descr {
@@ -2846,6 +2850,7 @@ h3.blog-title-two a:hover {
   padding: 80px 0 80px;
   position: relative;
   z-index: 1;
+  border-bottom: 3px solid #7fc23a;
 }
 
 .about-area::before {
@@ -2857,6 +2862,7 @@ h3.blog-title-two a:hover {
   background-repeat: no-repeat;
   right: -72%;
   top: -8%;
+  z-index: -1;
 }
 
 .about-thumb {
@@ -3073,6 +3079,7 @@ h4.about-title {
 .service-icon img {
   /* filter: brightness(1) invert(0); */
   transition: 0.5s;
+  width: 75px;
 }
 
 h3.service-title {
@@ -6093,7 +6100,7 @@ ul.list-style-one li a:hover {
 .hero-area.style-three .hero-contant h6 {
   font-size: 16px;
   line-height: 42px;
-  color: #7fc23a;
+  color: #fff;
   font-weight: 600;
   margin-left: 58px;
   position: relative;
@@ -6130,6 +6137,7 @@ ul.list-style-one li a:hover {
   color: #ffffff;
   font-weight: 700;
   display: inline;
+  font-family: 'Roboto';
 }
 
 .hero-area.style-three .hero-contant span {
@@ -6281,30 +6289,46 @@ ul.list-style-one li a:hover {
 }
 
 .our-service-section .single-service-box {
-  padding: 35px 30px 135px 30px;
+  padding: 35px 30px 35px 30px;
   border: 2px solid #fff;
   position: relative;
   margin-bottom: 30px;
-  background-color: #E6E6E6;
+  background-color: #001848;
 }
 
 .our-service-section .service-icon {
   margin-bottom: 15px;
-  width: 75px;
-  height: 75px;
+  width: 100%;
+  height: 100%;
   line-height: 75px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-service-section h4.service-title {
   font-size: 24px;
-  color: #050a1e;
+  color: #7fc23a;
   font-weight: 600;
   transition: 0.5s;
+  text-align: center;
   position: relative;
 }
 
+.our-service-section .single-service-box .service-box-content {}
+
+.our-service-section .single-service-box .service-box-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 0px 25px;
+}
+
 .our-service-section h4.service-title:hover {
+  color: #7fc23a;
+}
+
+.our-service-section h4.service-title a:hover{
   color: #7fc23a;
 }
 
@@ -6314,8 +6338,9 @@ ul.list-style-one li a:hover {
   width: 80px;
   height: 2px;
   background-image: linear-gradient(270deg, #ffffff 0%, #7fc23a 100%);
-  left: 0;
+  left: 50%;
   bottom: -5px;
+  transform: translateX(-40px);
 }
 
 .our-service-section p.service-desc {
@@ -6323,6 +6348,7 @@ ul.list-style-one li a:hover {
   line-height: 24px;
   color: #7a7a7a;
   padding-top: 18px;
+  text-align: center;
 }
 
 .our-service-section .service-thumb {
@@ -8055,8 +8081,8 @@ button.icons {
   z-index: 3;
   position: relative;
   padding: 20px 30px;
-  background: #000;
-  border-radius: 5px;
+  background: #7fc23a;
+  border-radius: 20px;
   border: 2px solid #7fc23a;
 }
 
@@ -8070,7 +8096,7 @@ button.icons {
 }
 
 .modal-dialog .modal-content .modal-header h5 {
-  color: white;
+  color: #001848;
   font-family: 'Fira Sans';
   font-size: 45px;
   line-height: 52px;
@@ -8080,7 +8106,7 @@ button.icons {
   position: absolute;
   right: -20px;
   top: -20px;
-  background: #7fc23a;
+  background: #000;
   opacity: 1;
   width: 40px;
   height: 40px;
@@ -8131,15 +8157,15 @@ button.icons {
   padding: 14px 21px;
   background: #fff;
   border-radius: 4px;
-  border: 1px solid #7fc23a;
+  border: 1px solid #001848;
   resize: none;
   box-shadow: none;
 }
 
 .modal-dialog .modal-content .modal-body form button.btn {
   width: 100%;
-  background: #7fc23a;
-  border: 1px solid #7fc23a;
+  background: #001848;
+  border: 1px solid #001848;
   font-family: 'Fira Sans';
   padding: 9px;
   border-radius: 48px;
@@ -8152,7 +8178,7 @@ button.icons {
 
 .modal-dialog .modal-content .modal-body form button.btn:hover {
   background: #000;
-  border-color: #fff;
+  border-color: #001848;
 }
 
 .modal-dialog .modal-content .modal-body .dont-hve-ac {
@@ -8177,8 +8203,8 @@ button.icons {
 
 .modal-dialog .modal-content .modal-body button.cust-btn {
   width: 100%;
-  background: #7fc23a;
-  border: 1px solid #7fc23a;
+  background: #001848;
+  border: 1px solid #001848;
   font-family: 'Fira Sans';
   padding: 9px;
   border-radius: 48px;
@@ -8191,8 +8217,9 @@ button.icons {
 }
 
 .modal-dialog .modal-content .modal-body button.cust-btn:hover {
-  background: #000;
-  border-color: #fff;
+  background: transparent;
+  color: #001848;
+  border-color: #001848;
 }
 
 /* ------- Modal CSS End Here  */

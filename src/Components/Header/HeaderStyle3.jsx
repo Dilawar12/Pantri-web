@@ -108,7 +108,7 @@ export default function HeaderStyle3({ variant }) {
               </div>
               <div className="cs_main_header_right">
                 <div className="solutek-btn2">
-                  <button onClick={handleGetStartedClick}>{isCostumerLogin ? 'Logout' : 'Sign Up'} </button>
+                  <button onClick={handleGetStartedClick}>{isCostumerLogin ? 'Logout' : token ? "Dashboard" : 'Sign Up'} </button>
                 </div>
               </div>
             </div>
