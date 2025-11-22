@@ -3361,6 +3361,137 @@ h3.project-title a:hover {
   margin-bottom: 30px;
 }
 
+.pricing-single-box.Green {
+}
+
+.pricing-single-box.Green .pricing-head {
+    background: #7fc23a;
+    margin: 0;
+    border-radius: 15px 40px 0px 0px;
+    border-bottom: 10px solid #001847;
+}
+
+.pricing-single-box.Green .pricing-head h1.priching-doller {
+    color: white;
+}
+
+.pricing-single-box.Green .pricing-body {
+    background: #7fc23a;
+}
+
+.pricing-single-box.Green .pricing-body::before {
+    display: none;
+}
+
+.pricing-single-box.Green ul.pricing-list li i {
+    color: #001848;
+}
+
+.pricing-single-box.Green ul.pricing-list li {
+    color: white;
+}
+
+.pricing-single-box.Green .solutek-btn {}
+
+.pricing-single-box.Green .solutek-btn a {
+    background: #001848;
+    color: white !important;
+}
+
+.pricing-single-box.Green .solutek-btn .solutek-hover-btn {
+    background: #000;
+}
+
+.pricing-single-box.Dark-blue {
+}
+
+.pricing-single-box.Dark-blue .pricing-head {
+    background: #001848;
+    margin: 0;
+    border-radius: 15px 40px 0px 0px;
+    border-bottom: 10px solid #7fc23a;
+}
+
+.pricing-single-box.Dark-blue .pricing-head h3.priching-title {
+    color: #7fc23a;
+}
+
+.pricing-single-box.Dark-blue .pricing-head h1.priching-doller {
+    color: white;
+}
+
+.pricing-single-box.Dark-blue .pricing-body {
+    background: #001848;
+}
+
+.pricing-single-box.Dark-blue .pricing-body::before {
+    display: none;
+}
+
+.pricing-single-box.Dark-blue ul.pricing-list li i {
+    color: #7fc23a;
+}
+
+.pricing-single-box.Dark-blue ul.pricing-list li {
+    color: white;
+}
+
+.pricing-single-box.Dark-blue .solutek-btn {}
+
+.pricing-single-box.Dark-blue .solutek-btn a {
+    background: #7fc23a;
+    color: white !important;
+}
+
+.pricing-single-box.Dark-blue .solutek-btn .solutek-hover-btn {
+    background: #000;
+}
+
+.pricing-single-box.Dark-black {
+}
+
+.pricing-single-box.Dark-black .pricing-head {
+    background: #212020;
+    margin: 0;
+    border-radius: 15px 40px 0px 0px;
+    border-bottom: 10px solid #7fc23a;
+}
+
+.pricing-single-box.Dark-black .pricing-head h3.priching-title {
+    color: #7fc23a;
+}
+
+.pricing-single-box.Dark-black .pricing-head h1.priching-doller {
+    color: white;
+}
+
+.pricing-single-box.Dark-black .pricing-body {
+    background: #212020;
+}
+
+.pricing-single-box.Dark-black .pricing-body::before {
+    display: none;
+}
+
+.pricing-single-box.Dark-black ul.pricing-list li i {
+    color: #7fc23a;
+}
+
+.pricing-single-box.Dark-black ul.pricing-list li {
+    color: white;
+}
+
+.pricing-single-box.Dark-black .solutek-btn {}
+
+.pricing-single-box.Dark-black .solutek-btn a {
+    background: #7fc23a;
+    color: white !important;
+}
+
+.pricing-single-box.Dark-black .solutek-btn .solutek-hover-btn {
+    background: #001848;
+}
+
 .pricing-head {
   background: #fff5f3;
   padding: 47px 0 36px;
@@ -3386,7 +3517,8 @@ h3.project-title a:hover {
   content: "";
   height: 100%;
   width: 0;
-  background: url(/assets/images/pricing2.png);
+  /* background: url(/assets/images/pricing2.png); */
+  background:  url(/assets/images/pricing-bg-img.png);
   right: 0;
   top: 0;
   z-index: -1;
@@ -3394,6 +3526,7 @@ h3.project-title a:hover {
   background-position: center;
   background-size: cover;
   transition: 0.5s;
+  border-radius: 0px 40px 0px 0px;
 }
 
 h1.priching-doller {

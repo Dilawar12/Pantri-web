@@ -63,8 +63,8 @@ const HomeOrganizing = () => {
         <div className="col-lg-12">
           <div className="section-title text-center">
             <SectionTitle
-              SubTitle="Currently Under Development."
-              Title="Reclaim Your Space. Reclaim Your Time"
+              SubTitle="Everyday Life Simplified"
+              Title="Redefine Freedom At Home"
             ></SectionTitle>
           </div>
         </div>

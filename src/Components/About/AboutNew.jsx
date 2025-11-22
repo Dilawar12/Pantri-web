@@ -9,10 +9,13 @@ const AboutNew = ({ content }) => {
                         <div className="services-details-content">
                             {content?.title && <h4 className="services-details-title">{content.title}</h4>}
                             <p className="services-details-desc">
-                                Pantri App was founded as a community built for ease, eliminating the friction of in-home cooking, laundry, and home organization. We deliver lifestyle services that give people back their time so they can focus on what matters most.
+                                Pantri App, Inc. was founded with a simple belief: home should be a place of balance, connection, and ease. We’re more than a platform for chores we’re a community that gives people back their time so they can focus on what matters most.
                             </p>
                             <p className="services-details-desc">
-                                We’re excited to introduce our Cart-to-Table™ Pilot Program, now available through the Pantri App Web experience. This launch brings personalized meal prep directly to your home, powered by our growing network of vetted personal chefs. We continue to onboard top-tier professionals, including organizers and laundry operators, who will deliver thoughtful, in-home service with care and consistency. Whether you're a busy professional, mom, senior citizen, or firefighter, Pantri App offers real human connection and stress-free support that promotes wellness and household ease.
+                                Every booking supports local chefs, organizers, and laundry pros, helping them grow their businesses and strengthening communities one service at a time. By verifying providers and fostering trust, we ensure every experience is delivered with care and consistency.
+                            </p>
+                            <p className='services-details-desc'>
+                                Your home, your way - Pantri App adapts to your schedule, preferences, and priorities. Whether it’s personalized meal prep, thoughtful organization, or laundry done right, our mission is to bring wellness, stress‑free support, and real human connection into everyday life.
                             </p>
                             {/* <p className="services-details-desc">
                                 PantriApp supports busy professionals, moms,
@@ -27,17 +30,17 @@ const AboutNew = ({ content }) => {
                                     </Link>
                                 )}
                             </div>
-                            <div className=' services-details-thumb abt-new-img'>
+                            {/* <div className=' services-details-thumb abt-new-img'>
 
                                 <img src={content?.ThirdImage} alt="thumb" className="img-fluid" />
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                         <div className="services-details-thumb abt-new-img">
                             <img src={content?.FristImage} alt="thumb" className="img-fluid" />
-                            <img src={content?.secondImage} alt="thumb" className="img-fluid" />
+                            {/* <img src={content?.secondImage} alt="thumb" className="img-fluid" /> */}
                         </div>
                     </div>
                 </div>

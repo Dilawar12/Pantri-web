@@ -3,14 +3,14 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import VideoModal from '../VideoModal/VideoModal';
 
-const About4 = ({ about }) => {
+const About4 = ({ about , thirdImage}) => {
 	return (
 		<div className="about-us-area">
 			<div className="container">
 				<div className="row align-items-center">
 					{about?.leftImage &&
 						<div className="col-lg-6">
-							<div className="about-us-thumb">
+							<div className={`"about-us-thumb" ${thirdImage}`}>
 								<div className="about-us-img">
 									<img src={about?.leftImage} alt="thumb" height={'300px'} />
 								</div>

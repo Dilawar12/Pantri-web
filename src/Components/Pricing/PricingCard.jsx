@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const PricingCard = ({ Price, PricePlan, FeatureList, BtnUrl, BtnText }) => {
+const PricingCard = ({ Price, PricePlan, FeatureList, BtnUrl, BtnText  , PriceCardClass}) => {
     return (
-        <div className="pricing-single-box ">
+        <div className={`pricing-single-box ${PriceCardClass}`}>
             <div className="pricing-head">
                 <h1 className="priching-doller">{Price}</h1>
                 <h3 className="priching-title">{PricePlan}</h3>

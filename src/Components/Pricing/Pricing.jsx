@@ -34,6 +34,7 @@ const Pricing = () => {
                             PricePlan="Basic Plan"
                             BtnUrl="/"
                             BtnText="Get started"
+                            PriceCardClass = "Green"
                             FeatureList={[
                                 "AI Assistant",
                                 "Cart-to-Table™",
@@ -53,6 +54,7 @@ const Pricing = () => {
                             PricePlan="Economy Plan"
                             BtnUrl="/"
                             BtnText="Get started"
+                            PriceCardClass = "Dark-blue"
                             FeatureList={[
                                 "Reduced fees and credits",
                                 "AI Assistant",
@@ -71,6 +73,7 @@ const Pricing = () => {
                         <PricingCard
                             Price="$99/yr"
                             PricePlan="Executive Plan"
+                            PriceCardClass = "Dark-black"
                             BtnUrl="/"
                             BtnText="Get started"
                             FeatureList={[

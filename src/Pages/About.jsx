@@ -4,7 +4,7 @@ import BreadCumbAbout from "../Components/Common/BreadCumbAbout";
 import ImageTwentyFive from '/assets/images/about-second-image.png';
 import aboutThirdImage from '/assets/images/about-third-image.png';
 import aboutFouthImage from '/assets/images/about-fouth-image.png';
-// import aboutUsThu from "/assets/images/about-us-thu.png";
+import aboutUsThuThird from "/assets/images/about-us-thu-third.png";
 import aboutUsThuSecond from "/assets/images/about-us-thu-second.png";
 import banner from "/assets/images/about-banner.png";
 import AboutTop from "../Components/About/AboutTop";
@@ -19,15 +19,16 @@ const About = () => {
     }
 
     const AboutTopSecTwo = {
-        title: 'Getting started with PantriApp',
-        description: "Jumping in is simple: choose the service you need, select a vetted professional in your area, and book your session. You’ll receive confirmation, service details, and provider profiles — and you’re just a few steps away from turning your home into your haven."
+        title: 'Why PantriApp?',
+        description: "PantriApp is the world’s first Household OS, designed to simplify and elevate everyday living. More than a platform, it’s a system that helps households run smoothly - reducing clutter, easing stress, and restoring balance.",
+        descriptionTwo : "From personalized meal prep to laundry and home organization, Pantri App integrates trusted providers, secure services, and transparent reviews into one seamless experience. The result: a home managed with efficiency, care, and confidence - so you can focus on what matters most, without worry."
     }
 
     const content = {
-        title: 'Cart-to-Table™ Pilot Program',
-        ThirdImage: aboutFouthImage,
+        title: 'Empowering Homes, Empowering Providers',
+        // ThirdImage: aboutFouthImage,
         FristImage: ImageTwentyFive,
-        secondImage: aboutThirdImage,
+        // secondImage: aboutThirdImage,
 
     }
 
@@ -39,9 +40,10 @@ const About = () => {
     }
 
     const aboutTwo = {
-        title: "Personalized services, in your home",
-        Content: "From three-day meal-prep sessions using your own pantry and fresh ingredients to weekly laundry pickup & delivery, household organizing, and in-home dining experiences, PantriApp covers the full spectrum of premium home-based services. Whether you’re preparing for a busy week, entertaining guests, or reclaiming your space, our platform gives you flexible, high-quality access to the help you deserve.",
-        leftImage: aboutUsThuSecond,
+        title: "Community Engagement",
+        Content: "Pantri App isn’t just a platform - it’s a commitment to redefine freedom. Beyond everyday services, we pledge quarterly volunteer support for households who need it most. By giving back directly to the community, we strengthen trust, foster connection, and ensure that freedom and care reach those who might otherwise go without. Join us in our efforts and Sign Up.",
+        leftImage: aboutUsThuThird,
+        thirdImage: "image",
         RightImage: null
     }
 

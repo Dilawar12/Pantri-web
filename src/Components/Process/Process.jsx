@@ -23,9 +23,7 @@ const Process = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="section-title text-left">
-                            <p className="section-des">paradigms monotonectally extend open-source creative design
-                                Cart-to-Table brings together AI, data, and real-world service to create a seamless household experience. Every feature is designed to save time, reduce stress, and deliver freedom at home.
-                            </p>
+                            <p className="section-des">Cart-to-Table™ blends AI, data, and real-world service to simplify meals at home. Our vetted chefs deliver thoughtful, time-saving support designed to reduce stress, promote wellness, and restore freedom at home</p>
                         </div>
                     </div>
                 </div>
