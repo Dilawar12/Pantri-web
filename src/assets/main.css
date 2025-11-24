@@ -3727,6 +3727,22 @@ ul.accordion {
   border-radius: 30px;
 }
 
+
+.accordion li.active {}
+
+.accordion li a {
+    background-color: #001848 !important;
+    color:white !important;
+}
+
+.accordion li a span {
+    color: white !important;
+}
+
+.accordion li.active a span{
+    color:#001848 !important;
+}
+
 .accordion a.active:after {
   transform: rotate(0deg);
   -webkit-transition: all 0.2s ease-in-out;

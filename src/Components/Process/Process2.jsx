@@ -27,7 +27,7 @@ const Process2 = () => {
                                 Image="/assets/images/home-3/process-1.png"
                                 Number="01"
                                 Title="Recognize and Reclaim"
-                                Content="PantriApp helps you reclaim your time. No more sacrificing your evenings for chores."
+                                Content="We help you reclaim your time. No more sacrificing your evenings for chores."
                             ></ProcessCard2>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Process2 = () => {
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="solutek-btn mt-10 d-flex justify-content-center">
                             <a href="" onClick={(e) => {e.preventDefault(); openModal();}} >
-                                Become an Early Customer to Sign Up
+                                Sign Up
                                 <div className="solutek-hover-btn hover-bx"></div>
                                 <div className="solutek-hover-btn hover-bx2"></div>
                                 <div className="solutek-hover-btn hover-bx3"></div>
