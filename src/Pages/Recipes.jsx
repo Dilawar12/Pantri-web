@@ -31,6 +31,8 @@ const RecipeSearch = () => {
             setLoading(false);
         }
     };
+
+
     return (
         <div className="service-detail">
             {/* <BreadCumb Title="Cart-to-Table Recipe Finder" image={sectionOne} /> */}
