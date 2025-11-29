@@ -15,7 +15,7 @@ const Footer = () => {
         { title: 'Pitchbook', link: 'https://pitchbook.com/profiles/company/812112-13' },
         { title: 'About Company', link: '/about' },
         { title: 'Latest Blog', link: '/blog' },
-        { title: 'Faqs', link: '/faq' },
+        { title: "FAQ's", link: '/faq' },
         { title: 'Contact Us', link: '/contact' },
     ];
 

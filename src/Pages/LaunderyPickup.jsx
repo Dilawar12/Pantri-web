@@ -15,8 +15,8 @@ const LaunderyPickup = () => {
     title: 'Simplified for Modern Living',
     description: "Laundry shouldn’t slow you down. With our pickup and delivery service, your clothes are collected, cleaned,and returned fresh — without you lifting a finger.",
     secondDesciption: 'Whether it’s your weekly wash, linens, or dry cleaning, our trusted local partners ensure every item is handled with care and returned on your schedule.',
-    btn_url: "/pricing",
-    btn_name: "Get Started",
+    btn_url: "void:;",
+    btn_name: "Coming Soon",
     leftImage: null,
     rightImage: sectionOne,
     direction: "flex-lg-row flex-column-reverse"
@@ -25,8 +25,8 @@ const LaunderyPickup = () => {
   const contentTwo = {
     title: 'Powered by PantriOS',
     description: "Our intelligent system learns your laundry habits and preferences — from pickup times to detergent choices — and automates your future bookings. Soon, you’ll be able to track orders, view past services, and even earn loyalty perks for recurring pickups.",
-    btn_url: "/pricing",
-    btn_name: "Get Started",
+    // btn_url: "/pricing",
+    // btn_name: "Get Started",
     leftImage: sectionTwo,
     rightImage: null,
     direction: "flex-lg-row flex-column-reverse"
@@ -63,7 +63,7 @@ const LaunderyPickup = () => {
         <div className="col-lg-12">
           <div className="section-title text-center">
             <SectionTitle
-              SubTitle="Up Comming Experience"
+              SubTitle="Upcomming Experience"
               Title="Freedom from Laundry Is Just Around the Corner."
             ></SectionTitle>
           </div>

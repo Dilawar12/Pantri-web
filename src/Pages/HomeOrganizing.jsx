@@ -12,8 +12,8 @@ const HomeOrganizing = () => {
   const content = {
     title: 'Simplify Your Space. Amplify Your Freedom',
     description: "Whether it’s your pantry, closet, office, or garage, every space in your home can run smarter. Our Home Organizing service helps you bring order, flow, and functionality back to your household.",
-    btn_url: "/pricing",
-    btn_name: "Get Started",
+    btn_url: "void:;",
+    btn_name: "Coming Soon",
     leftImage: null,
     rightImage: sectiionOne,
     direction: "flex-lg-row flex-column-reverse"
