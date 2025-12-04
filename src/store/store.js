@@ -12,14 +12,17 @@ import {
 import storage from 'redux-persist/lib/storage';
 import commonSlice from './common/commonSlice';
 import userSlice from './user/userSlice';
+import cartReducer from './user/cartSlice'; // ← ADD CART SLICE
 
+// ✅ Combine all slices
 const appReducer = combineReducers({
   commonSlice,
   userSlice,
+  cart: cartReducer, // ← Add cart here
 });
 
+// ✅ Root reducer with logout reset
 const rootReducer = (state, action) => {
-  // ✅ Reset all slices when user logs out
   if (action.type === 'user/logout') {
     storage.removeItem('persist:root'); // clear persisted data
     state = undefined;
@@ -27,15 +30,17 @@ const rootReducer = (state, action) => {
   return appReducer(state, action);
 };
 
+// ✅ Persist config
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['userSlice'],
+  whitelist: ['userSlice', 'cart'], // ← add cart to whitelist
   blacklist: ['commonSlice'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
+// ✅ Configure store
 export const store = configureStore({
   reducer: persistedReducer,
   middleware: (getDefaultMiddleware) =>

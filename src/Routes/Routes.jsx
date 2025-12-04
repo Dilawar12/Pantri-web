@@ -31,6 +31,7 @@ import DashboardLead from "../Pages/DashboardLead";
 import DashboardProjects from "../Pages/DashboardProject";
 import RecipeSearch from "../Pages/Recipes";
 import RecipesDetail from "../Pages/RecipesDetail";
+import CartPage from "../Pages/CartPage";
 // import SingupModal from "../Components/Modal/SingupModal";
 
 export const router = createBrowserRouter([
@@ -57,6 +58,7 @@ export const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
       { path: "recipe", element: <RecipeSearch /> },
       { path: "recipeDetails", element: <RecipesDetail /> },
+      { path: "/cart",  element: <CartPage/> },
     ],
   },
   {

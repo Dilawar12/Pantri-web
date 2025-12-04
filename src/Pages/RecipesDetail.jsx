@@ -1,7 +1,13 @@
 import { useSelector } from "react-redux";
 import { selectRecipesDetail } from "../store/user/userSlice";
+import { useDispatch } from "react-redux";
+import { setCartItems } from "../store/user/cartSlice";
+import { useNavigate } from "react-router-dom";
 
 const RecipesDetail = () => {
+
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
     const recipe = useSelector(selectRecipesDetail);
     if (!recipe) {
         return (
@@ -107,6 +113,27 @@ const RecipesDetail = () => {
                                             </tbody>
                                         </table>
                                     </div>
+
+                                    <button
+                                        className="btn btn-success mt-3"
+                                        onClick={() => {
+                                            // Map each ingredient to include text, quantity, measure
+                                            const cartData = ingredients.map(item => ({
+                                                text: item.text,
+                                                quantity: item.quantity,
+                                                measure: item.measure
+                                            }));
+
+                                            console.log("ADDING TO CART:", cartData);
+                                            dispatch(setCartItems(cartData));
+                                            navigate("/cart");
+                                        }}
+                                    >
+                                        Add Ingredients to Cart
+                                    </button>
+
+
+
 
                                     {/* DIGEST TABLE */}
                                     <h5 className="mt-5 mb-3 text-success">Nutritional Breakdown</h5>
